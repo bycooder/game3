@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: block;
+}
+.mainBoard {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  width: 360px;
+}
+p,
+button {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  border: 0.1px solid black;
+}
+
+#score {
+  display: block;
+  border: none;
+}
+.borderRight {
+  border-right: 3px solid black;
+}
+.borderTop {
+  border-top: 3px solid black;
+}
+.selectedNumber {
+  margin-top: 10px;
+  width: 360px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.forColor {
+  background-color: #fff;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(https://www.shutterstock.com/shutterstock/photos/2346369291/display_1500/stock-vector-paper-filled-with-square-lines-and-numbers-a-japanese-game-of-filling-in-numbers-with-bold-text-to-2346369291.jpg);
+  padding: 20px;
+}
